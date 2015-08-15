@@ -1,0 +1,36 @@
+/* don't forget to use a border underneath the nav bar! */
+
+.nav {
+	/* creates nav bar */
+	margin-top: 20px;
+	height: 40px;
+	background: a7e0ee;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	/* removes ul bullet-points */
+	list-style: none;
+}
+
+.nav ul li a {
+	/* remove link underline */
+	text-decoration: none;
+	/* lists links horizontally */
+	float: left;
+	/* allows padding */
+	display: block;
+	/* spaces out nav line items */
+	padding: 10px 20px;
+	/* makes links black */
+	color: black;
+}
+
+.nav ul li a:hover {
+	/* link is white only when you hover*/
+	color: white;
+}
